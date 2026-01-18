@@ -1,0 +1,22 @@
+# FastAPI Backend Dependencies
+# Generated from pyproject.toml for Hugging Face Spaces deployment
+
+# Core Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# Database & ORM
+sqlmodel>=0.0.22
+psycopg2-binary>=2.9.9
+alembic>=1.13.3
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0
+
+# Configuration
+python-dotenv>=1.0.1
+
+# Data Validation
+pydantic>=2.10.0
+email-validator>=2.0.0
+
